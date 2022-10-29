@@ -1,1 +1,34 @@
-# bikesharing
+# Bikesharing Analysis
+
+## Overview
+
+Bikesharing companies have become quite popular in urban cities. These allow people to rent a bike at convenient locations for a period of time and then drop them off at a different location. These business models have gone through some growing pains in trying to identify whether they should gear themselves more towards and urban communter or a tourist. They have also experimented with pricing modes by the minute or on a flat fee for a subscriber. 
+
+For this project, we are using public data from one of the larger bikesharing programs in the country, namely Citi Bike in New York City. Our analysis is to understand how the program is working in New York City to decide if we could start a successful company for bike sharing in Des Moines, Iowa. Understanding the type of riders in NYC will help us understand if there are parallels with the population in Des Moines that would also make this company successful. 
+
+## Results
+
+The link to the full dashboard can be found here ([LINK TO DASHBOARD](https://public.tableau.com/app/profile/erin.vigil/viz/BikesharingNYC_16670576911040/Story1?publish=yes))
+
+One of the first questions to answer is to look at when the bikes are being rented. Using the **Peak Riding Hours August** tab in our dashboard, we can see a bar graph for the Month of August in 2019 in New York City. August has nice weather and a high number of tourists, so will probably capture the peak of our riding data. We can see that the spikes seem to be in the morning around 8 and 9 am and then again 5 and 6 pm. This would suggest that there are probably a good number of commuters utilizing Citi Bikes to get to work. We still see decent taffic during the daytime hours and could be our tourist population. As the sunsets, traffic falls off.
+
+The next question we want to answer is where these bikes are being rented. We want to refine our assumption on if these are commuters renting the bikes. Businesses and offices are in the highest density in the bottom half of Manhattan and we also see the highest density in starting points for renting the bikes using the **Top Starting Locations** chart in our data story. Manhattan has a dense population with residences also located in this area, so we can probably start to assume that Citi Bikes are used by commuters to go short distances to work in the dense lower half of Manhattan.
+
+We can verify this assumption by looking at **Checkout Times for Users** in the next chart in our story. This shows us that the overwhelming majority of trips are only a few minutes and last less than 20 minutes. This probably means our assumptions are right and that commuters are using the bikes to go short distances quickly as an alternative to public transportation or walking.
+
+The next thing we want to understand is who is riding the bikes. We want to make sure that the demographics are similar in these areas between NYC and Des Moines. Using the **Checkout Times by Gender** chart, we can see that the vast majority of the riders are Male. This makes sense for commuting as well as it is easier to ride a bike in a suit than a women's dress and heels if we stick with the assumption that the largest group of riders are office commuters.  It would be interesting to look at this data again as dress codes have relaxed post pandemic.
+
+Adding in days of the week in our heatmap located in the next chart titled **Trips by Weekday for Each Hour**, our hypothesis starts to gain more traction. We can see by the darker red boxes a concentration at 8 am and 5-6 pm on weekdays with lighter traffic on the weekends. This is in line with our office commuter assumption.
+
+Breaking this heatmap down in our next chart, **Trips by Weekday by Gender**, we see that while we knew the overwhelming majority of trips were by males in the morning. We do see some increase in women riding in the same hours suggesting that there is indeed a female commuter population as well.
+
+Our last chart, **User Trips by Gender by Weekday**, breaks down the user groups by subscribers and non-subscribers as well as by gender. We see that the highest concentration in all Genders is in subsrcripers. We also see taht Male subscribers on Thursday an Friday are the clear drivers of the majority of the traffic. Again, it would be interesting to look at this again as office habits have changed post-pandemic.
+
+
+## Summary
+
+After looking at 7 different charts, it is safe to say that in 2019, the bulk of Citi Bike traffic was driven by Male commuters on the way to work and leaving work. Traffic was also concentrated to start in the more densely packed office locations in the bottom half of Manhattan. Trips were short, less than 20 minutes, so also suggested that the commuters lived close to the office and were using the bikes to commute short distances. Those commuters that were going long distances still chose other means of transportation. Women were less likely to use this as a method of commuting possibly due to traditional office attire that made riding bikes less convenient.  Looking at the demographics of Des Moines, there is a nice downtown area that could mimic the success of Citi Bike in New York, would be on a much smaller scale. There is also a much smaller tourist population that would use the bikes as arecreation. WHile this did not make up a majority of Citi Bike users, it still kept the bikes in use during the day. The program in Des Moines should be expected to be much smaller in scale, but also much less expensive to run just because there would would less bikes to buy and maintain. It could also be marketed differently than in NYC to attract a different clientele. 
+
+In order to figure out how to translate this to Des Moines, it would be great to look at an additional chart that would show checkout times by user type. It would be great to know how long non subscribers were checking out the bikes. This would help us look at our leisure customer to see if that customer rents bikes longer. If they do, the program could be marketed to those customers in Des Moines. This chart would be identical to the Checkout Times by Gender, but would just be split by User Type instead of Gender
+
+If we had additional data about how much revenue was coming from subscribers vs non subscribers we could also make a chart to look at the profitablilty of each group. While many of our customers are subscribers, the pricing model might actually not show as much disparity between user groups because the customers paying by the minute could be paying quite a bit more. Changing the pricing model in Des Moines to charge those customers less, could attract more volume and make up for a likely gap in revenue from urban commuters that is likely not present in Des Moines. This chart could he a heat map or a bar graph.
